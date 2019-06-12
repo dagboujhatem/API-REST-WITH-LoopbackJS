@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongoDS",
+    "public": true,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "Lien": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "Fichiers": {
+    "dataSource": "gridfs",
+    "public": true
+  },
+  "Contacts": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "Tache": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "EmailGroup": {
+    "dataSource": "Email",
+    "public": true
+  },
+  "UserFichiers": {
+    "dataSource": "mongoDS",
+    "public": true
+  }
+}

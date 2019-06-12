@@ -1,0 +1,13 @@
+{
+  "name": "EmailGroup",
+  "base": "Email",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

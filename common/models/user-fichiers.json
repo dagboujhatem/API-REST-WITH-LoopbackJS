@@ -1,0 +1,29 @@
+{
+  "name": "UserFichiers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "filename": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "length": {
+      "type": "string"
+    },
+    "uploadDate": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

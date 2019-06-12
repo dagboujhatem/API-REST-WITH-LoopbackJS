@@ -1,0 +1,41 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "database",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "gridfs": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "database",
+    "password": "",
+    "name": "gridfs",
+    "user": "",
+    "connector": "loopback-component-storage-mongo"
+  },
+  "Email": {
+    "name": "Email",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "dagboujhatem@gmail.com",
+          "pass": "admingmail"
+        }
+      }
+    ],
+    "connector": "mail"
+  }
+}
